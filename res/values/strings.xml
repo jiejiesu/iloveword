@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">我爱识字</string>
+
+    <!--100字-->
+    <string name="wo">我</string>
+    <string name="ni">你</string>
+    <string name="xiao">小</string>
+    <string name="zhen">真</string>
+    <string name="qi">奇</string>
+    <string name="guai">怪</string>
+    <string name="tai">太</string>
+    <string name="yang">阳</string>
+    <string name="shai">晒</string>
+    <string name="da">大</string>
+    <string name="yu">雨</string>
+    <string name="mei">没</string>
+    <string name="xia">下</string>
+    <string name="lao">老</string>
+    <string name="cheng">撑</string>
+    <string name="zhe">着</string>
+    <string name="san">伞</string>
+    <string name="gan">干</string>
+    <string name="sha">啥</string>
+    <string name="mo">蘑</string>
+    <string name="gu">菇</string>
+    <!--100句-->
+    <string name="sentence_wo">咩，我爱吃草</string>
+    <string name="sentence_ni">你能借我一把伞吗</string>
+    <string name="sentence_xiao">我是一只小蚂蚁</string>
+    <string name="sentence_zhen">这里真是太小了</string>
+    <string name="sentence_qi">大海是个奇妙的地方</string>
+    <string name="sentence_guai">奇怪，彤彤跑哪儿去了</string>
+    <string name="sentence_tai">太阳去哪儿了，我这儿很黑</string>
+    <string name="sentence_yang">多晒太阳，长得高哦</string>
+    <string name="sentence_shai">你喜欢晒太阳吗，我喜欢</string>
+    <string name="sentence_da">我的名字叫大象</string>
+    <string name="sentence_yu">下雨了，不能出去玩儿了</string>
+    <string name="sentence_mei">外面没下雨</string>
+    <string name="sentence_xia">你低下头，看见我了吧</string>
+    <string name="sentence_lao">你老是看我干嘛</string>
+    <string name="sentence_cheng">如果下雨的话，就要撑伞了</string>
+    <string name="sentence_zhe">看着我，你觉得我漂亮吗</string>
+    <string name="sentence_san">没有伞，我会淋湿的</string>
+    <string name="sentence_gan">我力气大，干起活来可快了</string>
+    <string name="sentence_sha">你在看啥呢，给我看看</string>
+    <string name="sentence_mo">这是毒蘑菇</string>
+    <string name="sentence_gu">我喜欢小蘑菇</string>
+</resources>

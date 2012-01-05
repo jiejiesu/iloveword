@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:gravity="center_horizontal"
+              android:background="@android:color/white"
+              android:paddingTop="40sp">
+    <FrameLayout android:id="@+id/blackboard"
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+            >
+        <ImageView android:background="@drawable/background_learn"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:scaleType="fitCenter"
+                   android:gravity="center"
+                   android:layout_marginTop="50sp"
+                   android:duplicateParentState="true"
+                />
+        <LinearLayout android:layout_height="fill_parent"
+                      android:layout_width="fill_parent"
+                      android:gravity="center_horizontal"
+                      android:duplicateParentState="true"
+                >
+            <TextView android:id="@+id/word"
+                      android:layout_height="wrap_content"
+                      android:layout_width="wrap_content"
+                      android:textColor="@android:color/white"
+                      android:background="@null"
+                      android:text="@string/wo"
+                      android:textSize="120sp"
+                      android:scaleType="fitCenter"
+                      android:gravity="center"
+                      android:soundEffectsEnabled="true"
+                      android:duplicateParentState="true"
+                    />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_weight="10"
+                  android:layout_marginTop="30sp">
+        <TextView android:id="@+id/sentence"
+                  android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:layout_weight="6"
+                  android:gravity="center_vertical|left"
+                  android:autoText="true"
+                  android:shadowColor="@android:color/black"
+                  android:shadowDx="10"
+                  android:shadowDy="10"
+                  android:textColor="@android:color/black"
+                  android:textSize="30sp"
+                  android:text="@string/sentence_wo"
+                  android:layout_marginLeft="20sp"
+                  android:layout_marginRight="0sp"
+                />
+        <ImageView android:id="@+id/talker"
+                   android:src="@drawable/sheep"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:layout_weight="4"
+                   android:layout_marginRight="20sp"
+                />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_weight="12">
+        <ImageButton android:id="@+id/learn_btn"
+                     android:src="@drawable/learn_btn"
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:layout_weight="3"
+                     android:background="@null"/>
+        <ImageButton android:id="@+id/listen_btn"
+                     android:src="@drawable/listen_btn"
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:layout_weight="3"
+                     android:background="@null"/>
+        <ImageButton android:id="@+id/test_btn"
+                     android:src="@drawable/test_btn"
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:layout_weight="3"
+                     android:background="@null"/>
+        <ImageButton android:id="@+id/setting_btn"
+                     android:src="@drawable/setting_btn"
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:layout_weight="3"
+                     android:background="@null"/>
+    </LinearLayout>
+
+
+</LinearLayout>

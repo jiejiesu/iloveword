@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@android:color/white"
+              android:gravity="center_horizontal"
+        >
+    <ImageButton android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:background="@drawable/background_main_header"/>
+    <ImageButton android:background="@drawable/title"
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 gravity="center"
+                 android:layout_marginTop="20sp"
+                 android:layout_marginBottom="20sp"
+            />
+    <ImageButton android:id="@+id/word100"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/title_100word"
+                 android:adjustViewBounds="true"
+                 android:gravity="center_horizontal"
+                 android:layout_marginBottom="10sp"
+            />
+    <ImageButton android:id="@+id/word300"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/title_300word"
+                 android:layout_marginBottom="10sp"
+            />
+    <ImageButton android:id="@+id/word600"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/title_600word"
+                 android:layout_marginBottom="20sp"
+            />
+    <ImageButton android:id="@+id/word1000"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:background="@drawable/title_1000word"
+                     android:layout_marginBottom="20sp"
+                />
+    <ImageButton android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:background="@drawable/background_main_header"/>
+</LinearLayout>
+

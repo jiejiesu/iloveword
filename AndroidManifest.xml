@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.sujie.iloveword"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <supports-screens android:largeScreens="true"
+                          android:normalScreens="true" android:smallScreens="true"
+                          android:resizeable="true" android:anyDensity="true"/>
+    <application android:label="@string/app_name" android:icon="@drawable/icon">
+        <activity android:name=".activity.MainActivity"
+                  android:label="@string/app_name"
+                  android:theme="@style/Theme.ILoveWord"
+                >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LearnActivity"
+                  android:theme="@style/Theme.ILoveWord"
+                />
+        <activity android:name=".activity.TestActivity"
+                  android:theme="@style/Theme.ILoveWord"
+                />
+    </application>
+</manifest>

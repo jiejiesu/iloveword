@@ -1,0 +1,15 @@
+<resources>
+    <style name="Theme.ILoveWord" parent="android:Theme">
+        <!-- Window attributes -->
+        <!--<item name="android:windowBackground">@drawable/screen_background_round</item>-->
+        <!--<item name="android:windowBackground">@drawable/screen_background</item>-->
+        <item name="android:windowBackground">@android:color/black</item>
+        <!--<item name="android:colorBackgroundCacheHint">@null</item>-->
+        <!--<item name="android:windowFrame">@null</item>-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <!--<item name="android:windowIsFloating">true</item>-->
+        <!--<item name="android:backgroundDimEnabled">false</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
